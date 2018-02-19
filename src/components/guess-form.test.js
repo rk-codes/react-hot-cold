@@ -23,7 +23,7 @@ describe('<GuessForm />', () => {
         const inputElement =  wrapper.find('input[type="number"]').instance();
         inputElement.value = guess;
         wrapper.simulate('submit');
-        expect( inputElement.value).toEqual('');     
+        expect(inputElement.value).toEqual('');     
     });
 
 })
